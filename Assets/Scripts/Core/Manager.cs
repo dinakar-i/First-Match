@@ -90,6 +90,7 @@ public class Manager : MonoBehaviour
         {
             for (int j = 0; j < GameData.cols; j++)
             {
+                if(getBox(i, j)==null) continue;
                 HLine(getBox(i, j));
                 VLine(getBox(i, j));
             }
