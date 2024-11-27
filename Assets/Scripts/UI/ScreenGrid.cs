@@ -13,48 +13,79 @@ public class ScreenGrid : MonoBehaviour
     private float xStart; // Starting x position for the grid
     private float yStart; // Starting y position for the grid
     [SerializeField] Camera cam;
-
-    void Start()
+    public Vector3 cellScale;
+    public bool showGrid;
+    void OnEnable()
     {
         InitializeGrid();
-        DrawGrid();
+        if(showGrid)DrawGrid();
+        //VisualizeCellCenters();
+        cellScale = new Vector3(cellSize, cellSize, 1);
+
     }
 
     void InitializeGrid()
     {
-        // Get screen boundaries in world units
+        // Get bottom-left and top-right world positions based on the camera
         bottomLeft = cam.ScreenToWorldPoint(new Vector2(0, 0));
         topRight = cam.ScreenToWorldPoint(new Vector2(Screen.width, Screen.height));
 
-        // Calculate the usable grid width and height, accounting for paddings
+        // Calculate usable grid dimensions, considering padding
         float gridWidth = topRight.x - bottomLeft.x - leftPadding;
         float gridHeight = topRight.y - bottomLeft.y - topPadding - bottomPadding;
 
-        // Determine the cell size by taking the smaller dimension (ensuring square cells)
+        // Determine cell size (ensures square cells)
         cellSize = Mathf.Min(gridWidth / GameData.cols, gridHeight / GameData.rows);
 
-        // Calculate x and y start positions based on padding and grid dimensions
+        // Calculate grid starting points
         xStart = bottomLeft.x + leftPadding;
         yStart = topRight.y - topPadding;
+
+        // Debugging for validation
+        Debug.Log($"Grid initialized: CellSize={cellSize}, XStart={xStart}, YStart={yStart}");
     }
+
 
     public Vector2 GetCellCenter(int row, int column)
     {
+        // Validate row and column bounds
+        if (row < 0 || row >= GameData.rows || column < 0 || column >= GameData.cols)
+        {
+            Debug.LogError($"Invalid row or column: row={row}, column={column}");
+            return Vector2.zero;
+        }
+
+        // Calculate center positions
         float xCenter = xStart + (column * cellSize) + (cellSize / 2);
         float yCenter = yStart - (row * cellSize) - (cellSize / 2);
+
+        // Debugging for validation
+        Debug.Log($"Cell Center for row={row}, column={column}: ({xCenter}, {yCenter})");
         return new Vector2(xCenter, yCenter);
     }
 
+    void VisualizeCellCenters()
+    {
+        for (int row = 0; row < GameData.rows; row++)
+        {
+            for (int col = 0; col < GameData.cols; col++)
+            {
+                Vector2 center = GetCellCenter(row, col);
+                GameObject marker = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+                marker.transform.position = center;
+                marker.transform.localScale = Vector3.one * cellSize * 0.5f;
+            }
+        }
+    }
+
+
     void DrawGrid()
     {
-        // Draw horizontal lines
         for (int i = 0; i <= GameData.rows; i++)
         {
             float yPos = yStart - (i * cellSize);
             DrawLine(new Vector2(xStart, yPos), new Vector2(xStart + (cellSize * GameData.cols), yPos));
         }
-
-        // Draw vertical lines
         for (int j = 0; j <= GameData.cols; j++)
         {
             float xPos = xStart + (j * cellSize);
