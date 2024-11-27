@@ -223,6 +223,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &7815603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -369,6 +373,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &14085038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -515,6 +523,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &29477063
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -661,6 +673,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &69223038
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -807,6 +823,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &91536557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -953,6 +973,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &91564674
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1099,6 +1123,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &93158202
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1245,6 +1273,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &102040070
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1391,6 +1423,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &103773771
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1586,6 +1622,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &136084128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1732,6 +1772,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &145668749
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1878,6 +1922,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &147507001
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2024,6 +2072,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &216448911
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2170,6 +2222,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &232382228
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2316,6 +2372,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &235169750
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2462,6 +2522,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &235374229
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2608,6 +2672,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &236956837
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2754,6 +2822,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &239561558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2900,6 +2972,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &242109724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3046,6 +3122,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &245829847
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3192,6 +3272,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &257641971
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3338,6 +3422,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &267306567
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3484,6 +3572,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &268460647
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3630,6 +3722,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &303258707
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3825,6 +3921,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &313129871
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3971,6 +4071,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &335820815
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4117,6 +4221,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &337029334
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4263,6 +4371,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &344577659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4409,6 +4521,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &368334637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4555,6 +4671,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &371332795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4701,6 +4821,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &392376681
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4847,6 +4971,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &425587292
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4993,6 +5121,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &469360122
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5139,6 +5271,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &496178035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5285,6 +5421,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &508815986
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5431,6 +5571,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &512905371
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5577,6 +5721,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &513971820
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5815,6 +5963,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &526707314
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5961,6 +6113,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &561119036
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6156,6 +6312,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &579768107
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6302,6 +6462,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &590804339
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6448,6 +6612,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &649306304
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6594,6 +6762,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &654383558
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6740,6 +6912,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &668137969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6886,6 +7062,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &672179395
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7032,6 +7212,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &675563073
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7178,6 +7362,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &681455060
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7324,6 +7512,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &699665835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7470,6 +7662,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &722950710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7616,6 +7812,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &748495330
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7811,6 +8011,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &782109088
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7957,6 +8161,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &792078475
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8103,6 +8311,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &797062090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8249,6 +8461,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &805637830
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8395,6 +8611,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &807207474
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8541,6 +8761,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &820749435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8687,6 +8911,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &824267682
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8833,6 +9061,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &825608628
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8979,6 +9211,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &838192807
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9125,6 +9361,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &841703614
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9271,6 +9511,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &844757416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9417,6 +9661,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &848263402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9563,6 +9811,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &877280346
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9709,6 +9961,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &895684577
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9855,6 +10111,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &908235885
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10001,6 +10261,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &925169299
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10147,6 +10411,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &926701358
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10293,6 +10561,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &934286261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10439,6 +10711,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &936587414
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10585,6 +10861,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &960809787
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10731,6 +11011,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &965297562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10877,6 +11161,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &990811451
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11023,6 +11311,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &998176392
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11169,6 +11461,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1022610389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11315,6 +11611,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1023594854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11461,6 +11761,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1058951094
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11607,6 +11911,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1062021141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11753,6 +12061,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1062468954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11899,6 +12211,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1079624256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12045,6 +12361,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1085538342
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12191,6 +12511,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1089960807
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12337,6 +12661,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1117368628
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12483,6 +12811,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1127720049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12629,6 +12961,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1161395077
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12775,6 +13111,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1199924928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12921,6 +13261,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1218771611
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13067,6 +13411,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1246714954
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13213,6 +13561,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1255929909
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13359,6 +13711,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1260295966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13505,6 +13861,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1285997173
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13651,6 +14011,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1314470832
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13744,7 +14108,7 @@ MonoBehaviour:
   lineWidth: 0.1
   leftPadding: 0
   topPadding: 1
-  bottomPadding: 1
+  bottomPadding: 0
   cam: {fileID: 519420031}
   cellScale: {x: 0, y: 0, z: 0}
   showGrid: 0
@@ -13849,6 +14213,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1333570347
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13995,6 +14363,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1342990969
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14141,6 +14513,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1345890062
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14287,6 +14663,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1349831479
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14433,6 +14813,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1351062557
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14579,6 +14963,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1354060593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14725,6 +15113,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1355437217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14871,6 +15263,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1369472435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15017,6 +15413,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1374224697
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15163,6 +15563,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1439549000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15358,6 +15762,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1463172079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15504,6 +15912,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1477840105
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15650,6 +16062,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1488873459
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15796,6 +16212,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1498365562
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15942,6 +16362,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1506704604
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16088,6 +16512,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1528297659
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16234,6 +16662,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1532470669
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16380,6 +16812,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1534223709
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16526,6 +16962,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1535840447
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16603,6 +17043,9 @@ MonoBehaviour:
   CurrentLevel: {fileID: 11400000, guid: 26a3d3f04381b1743ab23d1d810c7680, type: 2}
   screenGrid: {fileID: 1327741696}
   boxesParent: {fileID: 1622056787}
+  cam: {fileID: 519420031}
+  swappSpeed: 5
+  movingObjects: 0
 --- !u!4 &1537086038
 Transform:
   m_ObjectHideFlags: 0
@@ -16719,6 +17162,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1542643193
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16865,6 +17312,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1557736128
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17011,6 +17462,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1568554396
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17157,6 +17612,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1581910950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17303,6 +17762,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1598207411
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17537,6 +18000,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1657135541
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17732,6 +18199,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1688709405
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17878,6 +18349,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1716865269
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18024,6 +18499,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1754653868
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18170,6 +18649,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1770663961
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18316,6 +18799,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1774044112
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18462,6 +18949,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1776883783
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18608,6 +19099,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1786737223
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18754,6 +19249,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1850097204
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18900,6 +19399,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1867805825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19046,6 +19549,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1903226647
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19241,6 +19748,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1914282327
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19387,6 +19898,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1914573828
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19533,6 +20048,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1945363579
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19679,6 +20198,10 @@ MonoBehaviour:
   code: 6
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1954333032
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19825,6 +20348,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1976035045
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19971,6 +20498,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1985743590
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20117,6 +20648,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &1990163245
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20263,6 +20798,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2007710332
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20409,6 +20948,10 @@ MonoBehaviour:
   code: 5
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2020408349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20555,6 +21098,10 @@ MonoBehaviour:
   code: 4
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2032481124
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20701,6 +21248,10 @@ MonoBehaviour:
   code: 2
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2036667002
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20847,6 +21398,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2037339593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20993,6 +21548,10 @@ MonoBehaviour:
   code: 8
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2045170303
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21139,6 +21698,10 @@ MonoBehaviour:
   code: 3
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2073775033
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21285,6 +21848,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2077232627
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21431,6 +21998,10 @@ MonoBehaviour:
   code: 7
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2089041572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21577,6 +22148,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2102515510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21723,6 +22298,10 @@ MonoBehaviour:
   code: 1
   row: 0
   col: 0
+  health: 1
+  manager: {fileID: 1537086037}
+  dragThreshold: 0.5
+  isDragged: 0
 --- !u!61 &2124290574
 BoxCollider2D:
   m_ObjectHideFlags: 0
