@@ -17046,6 +17046,7 @@ MonoBehaviour:
   cam: {fileID: 519420031}
   swappSpeed: 5
   movingObjects: 0
+  gravitySpeed: 10
 --- !u!4 &1537086038
 Transform:
   m_ObjectHideFlags: 0

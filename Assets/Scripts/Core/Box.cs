@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Box : MonoBehaviour
@@ -76,6 +77,20 @@ public class Box : MonoBehaviour
     private void swapUp()
     {
         manager.SwapBoxes(this, manager.getBox(row-1, col));
+    }
+    public void moveBox(Vector2 targetPos)
+    {
+        StartCoroutine(move(targetPos));
+    }
+    IEnumerator move(Vector2 targetPos)
+    {
+        manager.movingObjects++;
+        while((Vector2)transform.position!=targetPos)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, manager.gravitySpeed * Time.deltaTime);
+            yield return null;
+        }
+        manager.movingObjects--;
     }
     public void selfDestroy()
     {

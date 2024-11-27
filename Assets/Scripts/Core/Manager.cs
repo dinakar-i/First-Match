@@ -5,13 +5,13 @@ using UnityEngine;
 public class Manager : MonoBehaviour
 {
     [SerializeField] LevelData CurrentLevel;
-    [SerializeField] ScreenGrid screenGrid;
+    public ScreenGrid screenGrid;
     [SerializeField] Transform boxesParent;
     [SerializeField] Box[,] matrix = new Box[GameData.cols, GameData.rows];
     [SerializeField] HashSet<Box> matchedBoxes = new HashSet<Box>();
     public Camera cam;
     public float swappSpeed;
-    public int movingObjects;
+    public int movingObjects, gravitySpeed;
     private void Start()
     {
         spwanBoxes();
@@ -97,7 +97,6 @@ public class Manager : MonoBehaviour
         }
         destroyMatchedBoxes();
     }
-
     private void HLine(Box box)
     {
         if (getBox(box.row - 1, box.col) == null || getBox(box.row + 1, box.col) == null) return;
