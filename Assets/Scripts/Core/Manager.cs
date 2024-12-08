@@ -12,6 +12,8 @@ public class Manager : MonoBehaviour
     public Camera cam;
     public float swappSpeed;
     public int movingObjects, gravitySpeed;
+    [SerializeField] Vector2[] EmptyGrids=new Vector2[GameData.cols];
+    private int LowsetEmptyRow;
     private void Start()
     {
         spwanBoxes();
@@ -32,6 +34,7 @@ public class Manager : MonoBehaviour
         }
     }
 
+  
 
     public Box findValidObject()
     {
@@ -58,12 +61,12 @@ public class Manager : MonoBehaviour
     public void SwapBoxes(Box box1, Box box2)
     {
         if (box1 == null || box2 == null) return;
-
-        //swap rows
+        //without using extra variable;
+        //swap rows;
         box1.row = box1.row + box2.row;
         box2.row = Mathf.Abs(box1.row - box2.row);
         box1.row = Mathf.Abs(box1.row - box2.row);
-        //swap cols
+        //swap cols;
         box1.col = box1.col + box2.col;
         box2.col = Mathf.Abs(box1.col - box2.col);
         box1.col = Mathf.Abs(box1.col - box2.col);
@@ -84,7 +87,7 @@ public class Manager : MonoBehaviour
     }
 
     [ContextMenu("find Matches")]
-    private void findMatches()
+    public void findMatches()
     {
         for (int i = 0; i < GameData.rows; i++)
         {
@@ -118,11 +121,48 @@ public class Manager : MonoBehaviour
         }
     }
 
-
     private void destroyMatchedBoxes()
     {
         foreach (Box box in matchedBoxes) box.selfDestroy();
-        matchedBoxes.Clear();
+        if (matchedBoxes.Count > 0)
+        {
+            matchedBoxes.Clear();
+            ApplyGravity();
+        }
+    }
+    public void setEmptyMatrix(Vector2 Grid)
+    {
+        if (EmptyGrids[(int)Grid.y].x < Grid.x)
+        {
+            EmptyGrids[(int)Grid.y] = Grid;
+            if ((int)Grid.x > LowsetEmptyRow) LowsetEmptyRow = (int)Grid.x;
+        }
+    }
+    void ApplyGravity()
+    {
+        for (int col = 0; col < GameData.cols; col++) // Iterate over each column
+        {
+            int emptyRow = -1; // Track the first empty row from the bottom
+
+            for (int row = GameData.rows - 1; row >= 0; row--) // Start from the bottom
+            {
+                if (matrix[row, col] == null) // Found an empty slot
+                {
+                    if (emptyRow == -1) emptyRow = row; // Mark the lowest empty slot
+                }
+                else if (emptyRow != -1) // Found a piece above an empty slot
+                {
+                    Box box = matrix[row, col];
+                    removeBoxFromMatrix(box);
+                    box.row = emptyRow;
+                    box.col = col;
+                    setBoxIntoMatrix(box);
+                    // Move piece down
+                    box.moveBox(screenGrid.GetCellCenter(box.row, box.col));
+                    emptyRow--; // Move up to the next empty slot
+                }
+            }
+        }
     }
 
     IEnumerator swapBoxesPos(Box box1, Box box2)

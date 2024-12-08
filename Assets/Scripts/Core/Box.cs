@@ -12,8 +12,8 @@ public class Box : MonoBehaviour
     public bool isDragged;
     void OnMouseDown()
     {
-        if (manager.movingObjects != 0) return;
         isDragged = false;
+        if (manager.movingObjects != 0) return;
         mouseStartPos = manager.cam.ScreenToWorldPoint(Input.mousePosition);
         mouseStartPos.z = 0;
     }
@@ -62,6 +62,7 @@ public class Box : MonoBehaviour
         }
     }
 
+
     private void swapLeft()
     {
         manager.SwapBoxes(this, manager.getBox(row, col-1));
@@ -91,6 +92,7 @@ public class Box : MonoBehaviour
             yield return null;
         }
         manager.movingObjects--;
+        if (manager.movingObjects == 0) manager.findMatches();
     }
     public void selfDestroy()
     {
@@ -98,6 +100,7 @@ public class Box : MonoBehaviour
         if(health<=0)
         {
             manager.removeBoxFromMatrix(this);
+            manager.setEmptyMatrix(new Vector2(row, col));
             gameObject.SetActive(false);
         }
     }
